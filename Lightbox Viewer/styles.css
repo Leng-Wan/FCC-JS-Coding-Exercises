@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    background-color: gainsboro;
+    line-height: 100px;
+}
+.lightbox
+{
+    position:fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-color: grey;
+    display: none;
+}
+
+.gallery
+{
+    margin-top: 90px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-item
+{
+    width: 400px;
+    height:auto;
+}
+
+#lightbox-image
+{
+    width:70%;
+    height:70%;
+    margin:auto;
+}
+
+#close-btn 
+{
+    width:30px;
+    height:30px;
+    position: fixed;
+    top:10px;
+    right:10px;
+}
