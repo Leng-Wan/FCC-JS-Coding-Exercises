@@ -12,7 +12,6 @@ gallery_items.forEach(item =>
 
     lightbox_image.src=image_src
 
-  
     })
 }
 )
